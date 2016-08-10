@@ -32,7 +32,7 @@ names = [
 	'Eagle',
 	'SBN',
 	'Royal',
-	'Parliament'
+	'Parliament',
 ]
 urls = [
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:mongolhd.smil/playlist.m3u8',
@@ -49,8 +49,8 @@ urls = [
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:edu.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:eagle.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:sbn.smil/playlist.m3u8',
-	'http://202.70.45.36/hls/_definst_/tv_mid/smil:royal.smil/playlist.m3u8'
-	'http://202.70.45.36/hls/_definst_/tv_mid/smil:parliament.smil/playlist.m3u8'
+	'http://202.70.45.36/hls/_definst_/tv_mid/smil:royal.smil/playlist.m3u8',
+	'http://202.70.45.36/hls/_definst_/tv_mid/smil:parliament.smil/playlist.m3u8',
 ]
 icons=[
 	'mongol-tv.png',
