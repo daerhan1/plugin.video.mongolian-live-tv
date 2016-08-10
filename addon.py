@@ -19,6 +19,7 @@ xbmcplugin.setContent(addon_handle, 'videos')
 names = [
 	'Mongol TV',
 	'Bloomberg TV',
+	'Bolobsural',
 	'MNB 1',
 	'MNB 2',
 	'UBS',
@@ -28,7 +29,6 @@ names = [
 	'TV5',
 	'TV9',
 	'25',
-	'Bolobsural',
 	'Eagle',
 	'SBN',
 	'Royal',
@@ -37,6 +37,7 @@ names = [
 urls = [
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:mongolhd.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:bloomberg.smil/playlist.m3u8',
+	'http://202.70.45.36/hls/_definst_/tv_mid/smil:edu.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:mnb.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:mnb_2.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:ubs.smil/playlist.m3u8',
@@ -49,12 +50,12 @@ urls = [
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:edu.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:eagle.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:sbn.smil/playlist.m3u8',
-	'http://202.70.45.36/hls/_definst_/tv_mid/smil:royal.smil/playlist.m3u8',
-	'http://202.70.45.36/hls/_definst_/tv_mid/smil:parliament.smil/playlist.m3u8'
+	'http://202.70.45.36/hls/_definst_/tv_mid/smil:royal.smil/playlist.m3u8'
 ]
 icons=[
 	'mongol-tv.png',
 	'bloomberg.png',
+	'edu_512x512.png',
 	'mnb_512x512.png',
 	'mn2_512x512.png',
 	'ubs_512x512.png',
@@ -63,12 +64,11 @@ icons=[
 	'ehoron_512x512.png',
 	'tv5_512x512.png',
 	'tv9_512x512.png',
-	'za_512x512.png',
-	'edu_512x512.png',
+	'25.png',
 	'eagle_512x512.png',
 	'sbn_512x512.png',
+	'royalhd_512x512.png',	
 	'royalhd_512x512.png',
-	'otv_512x512.png'
 ]
 
 for name,url,icon in zip(names,urls,icons):
