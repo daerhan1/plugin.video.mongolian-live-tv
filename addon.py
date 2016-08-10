@@ -28,6 +28,7 @@ names = [
 	'TV5',
 	'TV9',
 	'25',
+	'Bolobsural',
 	'Eagle',
 	'SBN',
 	'Royal',
@@ -49,6 +50,7 @@ urls = [
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:eagle.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:sbn.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:royal.smil/playlist.m3u8'
+	'http://202.70.45.36/hls/_definst_/tv_mid/smil:parliament.smil/playlist.m3u8'
 ]
 icons=[
 	'mongol-tv.png',
@@ -66,6 +68,7 @@ icons=[
 	'eagle_512x512.png',
 	'sbn_512x512.png',
 	'royalhd_512x512.png',
+	'256.png',
 ]
 
 for name,url,icon in zip(names,urls,icons):
