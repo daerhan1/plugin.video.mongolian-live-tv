@@ -36,8 +36,7 @@ names = [
 urls = [
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:mongolhd.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:bloomberg.smil/playlist.m3u8',
-	'http://202.70.45.36/hls/_definst_/tv_mid/smil:mnb.smil/playlist.m3u8
-',
+	'http://202.70.45.36/hls/_definst_/tv_mid/smil:mnb.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:mnb_2.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:ubs.smil/playlist.m3u8',
 	'http://202.70.45.36/hls/_definst_/tv_mid/smil:ntv.smil/playlist.m3u8',
