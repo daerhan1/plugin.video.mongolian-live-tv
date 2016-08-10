@@ -63,12 +63,12 @@ icons=[
 	'ehoron_512x512.png',
 	'tv5_512x512.png',
 	'tv9_512x512.png',
-	'25.png',
+	'za_512x512.png',
 	'edu_512x512.png',
 	'eagle_512x512.png',
 	'sbn_512x512.png',
 	'royalhd_512x512.png',
-	'256.png',
+	'otv_512x512.png',
 ]
 
 for name,url,icon in zip(names,urls,icons):
